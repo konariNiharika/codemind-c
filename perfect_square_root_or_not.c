@@ -2,13 +2,10 @@
 #include<math.h>
 int main()
 {
-    int num;
-    int ivar;
-    float fvar;
-    scanf("%d",&num);
-    fvar=sqrt((double)num);
-    ivar=fvar;
-    if(ivar==fvar)
+    int n,sq;
+    scanf("%d",&n);
+    sq=sqrt(n);
+    if(n==sq*sq)
     {
         printf("True");
     }
