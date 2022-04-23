@@ -5,11 +5,13 @@ int factorcount(int n)
     for(i=1;i<=n;i++)
     {
         if(n%i==0)
-        fc++;
+        {
+            fc++;
+        }
     }
     return fc;
 }
-int main()
+int  main()
 {
     int n,fc;
     scanf("%d",&n);
