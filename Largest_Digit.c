@@ -1,19 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int n,d,m=0;
+    int n,m=0,d;
     scanf("%d",&n);
-    while(n)
+    while(n!=0)
     {
         d=n%10;
         n=n/10;
     if(d>m)
     {
         m=d;
-    }
-    else
-    {
-        continue;
     }
     }
     printf("%d",m);
