@@ -10,7 +10,7 @@ int main()
             sum=sum+i;
         }
     }
-    if(n==sum)
+    if(sum==n)
     {
         printf("True");
     }
@@ -18,5 +18,4 @@ int main()
     {
         printf("False");
     }
-    return 0;
 }
