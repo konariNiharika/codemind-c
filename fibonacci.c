@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c,i,terms;
-    scanf("%d",&terms);
+    int n,i,a,b,c;
+    scanf("%d",&n);
     a=0;
     b=1;
     c=0;
-    for(i=1;i<=terms;i++)
+    for(i=1;i<=n;i++)
     {
         printf("%d ",c);
         a=b;
